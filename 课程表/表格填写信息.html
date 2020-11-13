@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>form表单</title>
+	</head>
+	<body>
+		<thead>
+			<tbody>
+				<!-- <table border="1" cellspacing="5" cellpadding="4" align="center" background="white"> -->
+				<tr>
+					<td>
+					<table border="0" cellspacing="5" cellpadding="5" align="center">
+				<form action="#" method="get">
+					<tr>
+						<td colspan="2" align="center">账号信息 <br /></td>
+					</tr>
+					<tr>
+						<td>
+							用户名：
+						</td>
+						<td><input type="text" name="user"  value=""  placeholder="请输入用户名"/><br /></td>
+					</tr>
+					<tr>
+						<td>密码：</td>
+						 <td>
+							 <input type="password" name="pwd" value="" placeholder="请输入密码"/><br />
+						</td>
+					</tr>
+					<tr><td >性别:</td> 
+					<td><input type="radio" name="gander" checkedvalue="boy"/>男&nbsp;
+					<input type="radio" name="gander" checkedvalue="girl">女 &nbsp;<input type="radio" name="gander" checkedvalue="key">保密<br />
+					</td>
+					</tr>
+					<tr>		
+					<td>籍贯：</td>
+					<td><select>
+						<option value ="bj">北京</option>
+						<option value ="tj">天津</option>
+						<option value ="hb">河北</option>
+						<option value ="ln" selected="selected">辽宁</option>
+					</select><br />
+					</td>
+					</tr>
+					<tr>
+						<td>爱好：</td>
+						<td><input type="checkbox" name="play" value="阅读"  />阅读&nbsp;
+					<input type="checkbox" name="play" value="运动" checked/>运动&nbsp;
+					 <input type="checkbox" name="play" value="购物"  /> 购物 <br />
+						</td>
+					 </tr>
+					 <tr>
+						 <td>自我评价：</td>
+						 <td><input type="text" style="width: 150px; height: 50px;" /> </td>
+					</tr>
+					<tr align="center">
+						<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 
+						<td colspan="2">
+								<input type="submit" name="get" value="提交"  />&nbsp;
+								<input type="submit" name="reset" value="重置" />
+						</td>
+					 </td>
+					 </tr>
+				</form>
+					</table>
+				</td>
+				</tr>
+				</table>
+			</tbody>
+		</thead>
+	</body>
+</html>
